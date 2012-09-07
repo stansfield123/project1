@@ -1,0 +1,15 @@
+<?php
+	$xml = new SimpleXMLElement(file_get_contents("store.xml"));
+
+	$categories = $xml->xpath("//category");
+?>
+
+<? require_once("begin.php"); ?>
+
+		<table cellpadding="10">
+		<? foreach($categories as $category) { ?>
+			<tr><td><a href="category.php?category=<? print($category['name']); ?>"><? print($category["name"]); ?></a></td></tr>
+		<? } ?>
+		</table>
+		
+<? require_once("end.php"); ?>

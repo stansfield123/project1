@@ -1,0 +1,50 @@
+#bg {background-color:#b0c4de;}
+
+<!-- CSS ID for the list in index.php ; the menu -->
+/* LIST #3 */
+
+#list3 { }
+
+#list3 ul { list-style-image: url("../images/arrow.png"); 
+color:white; font-size:35px; padding-right: 12px}
+
+#list3 ul li { line-height:45px; }
+
+ 
+
+<!-- CSS class for the table in category.php , originates from 
+
+http://www.textfixer.com/resources/css-tables.php -->
+
+<style type="text/css">
+table.imagetable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.imagetable th {
+	font-size:25px;
+	background:#b5cfd2 url('../images/cell-blue.jpg');
+	border-width: 1px;
+	padding: 12px;
+	border-style: solid;
+	border-color: #999999;
+}
+table.imagetable td {
+	font-size:18px;
+	background:#dcddc0 url('../images/cell-grey.jpg');
+	border-width: 1px;
+	padding: 12px;
+	border-style: solid;
+	border-color: #999999;
+}
+
+.title {
+	color: olive;
+	text-shadow: 4px 4px 8px white;
+}
+
+</style>
